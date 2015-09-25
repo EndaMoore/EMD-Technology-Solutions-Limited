@@ -1,0 +1,78 @@
+body {
+    padding-top: 70px;
+}
+
+section{
+    padding: 30px;
+}
+
+/*  Navbar */
+
+.nav{
+    margin-top: 18px;
+}
+
+.navbar{
+    min-height: 70px;
+    margin-bottom: 0 !important;
+}
+
+.navbar-nav{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand{
+    padding: 12px;
+    border: 3px solid #ccc;
+    margin: 10px;
+    font-size: 24px;
+    background: #0383c0 !important;
+    color: #fff !important;
+}
+
+.navbar-nav li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-nav > li > a{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-right: 1px solid #ccc;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav a:hover,.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    background: #0383c0 !important;
+    color: #fff !important;
+}
+
+/*  Navbar End  ===================================*/
+
+h1, h2, h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+/*  jumbotron  */
+
+.jumbotron{
+    margin: 0 !important;
+    min-height: 450px;
+    background-color: azure;
+}
+
+/*  jumbotron End   ===============================*/
+
+/*  service  */
+
+.service{
+    background: #f4f4f4;
+}
+
+.fa-color{
+    color: #0383c0;
+}
+
+/*  service End  ============================*/
