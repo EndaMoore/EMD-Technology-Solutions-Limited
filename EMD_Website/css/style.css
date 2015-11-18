@@ -123,6 +123,22 @@ h1, h2, h3{
 
 /*  service End  ============================*/
 
+/* section-title CSS */
+
+.section-title{
+    margin-top: 20px;
+    padding: 10px;
+    background: #0383c0;
+    color: #fff;
+}
+
+.section-title small{
+    color: #ccc !important;
+}
+
+/* section-title CSS =============================== Ends */
+
+
 /* Media Queries */
 
 @media(max-width:990px){
