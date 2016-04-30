@@ -1,9 +1,6 @@
-@import "vendors/bootstrap/bootstrap.less";
+
 @import "vendors/font-awesome/font-awesome.less";
 
-@primary: #26a5d3;
-@dark: #333333;
-@light: #f4f4f4;
 
 html{
 	width:100%;
@@ -14,11 +11,11 @@ body{
 	width:100%;
 	height:100%;
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-	color:@dark;
-	background-color:@light;
+	color:#333333;
+	background-color:#f4f4f4;
 }
 
-// Typography
+/* Typography*/
 
 h1, h2, h3, h4, h5, h6{
 	margin: 0 0 35px;
@@ -34,24 +31,24 @@ p{
 }
 
 a{
-	color:@primary;
+	color:#26a5d3;
 
 }
 
 a:hover,a:focus{
 	text-decoration:none;
-	color: darken(@primary, 20%);
+	color: darken(#26a5d3, 20%);
 }
 
 
-// Navigation
+/* Navigation*/
 
  .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,0.3);
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: @dark;
+    background-color: #333333;
 }
 
 .navbar-brand {
@@ -63,7 +60,7 @@ a:hover,a:focus{
 }
 
 .navbar-custom a {
-    color: @light;
+    color: #f4f4f4;
 }
 
 .navbar-custom .nav li a {
@@ -82,7 +79,7 @@ a:hover,a:focus{
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: @light;
+    color: #f4f4f4;
 }
 
 .navbar-toggle:focus,
@@ -103,7 +100,7 @@ a:hover,a:focus{
 
     .top-nav-collapse {
         padding: 0;
-        background-color: @dark;
+        background-color: #333333;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -112,7 +109,7 @@ a:hover,a:focus{
 }
 
 
-// Landing Page
+/* Landing Page*/
 
 .intro{
 	display:table;
@@ -120,9 +117,9 @@ a:hover,a:focus{
 	height:auto;
 	padding:100px 0;
 	text-align:center;
-	color:@light;
-	background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-	background-color:@dark;
+	color:#f4f4f4;
+	background: url(../img/bannertype1.jpg) no-repeat bottom center scroll;
+	background-color:#333333;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -157,41 +154,22 @@ a:hover,a:focus{
 	}
 }
 
-// Content Section
+/* Content Section*/
 
 .content-section{
 	padding: 70px 0 40px 0;
 }
 
-// Icon Blocks
+/* Icon Blocks*/
 
-.block-icon-left{
-	overflow:auto;
 
-	h1, h2, h3, h4, h5, h6{
-		margin:0 0 10px 0;
-		padding:0;
-		font-size:20px;
-	}
-
-	.icon-content{
-		float:left;
-		width:70%;
-	}
-
-	.icon{
-		float:left;
-		width: 30%;
-		margin-top:10px;
-	}
-}
 
 .signup-section{
 	width:100%;
 	padding:50px 0;
-	color:@light;
+	color:#f4f4f4;
 	background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-	background-color:@dark;
+	background-color:#333333;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -205,28 +183,38 @@ a:hover,a:focus{
 }
 
 
-// Client Section
+/* login Section*/
 
-#clients{
-	text-align:center;
-	padding-bottom:80px;
+.login-section{
+	width:100%;
+	padding:50px 0;
+	color:#f4f4f4;
+	background: url(../img/Blurred-Backgrounds_1.jpg) no-repeat center center scroll;
+	background-color:#333333;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
 
-	img{
-		margin-right:30px;
+@media(min-width:767px) {
+	.who-section{
+		padding: 100px 0;
 	}
 }
 
 
-// Contact Section
+/* Contact Section*/
 
 #contact{
-	background:@dark;
-	color:@light;
+	background:#333333;
+	color:#f4f4f4;
 	padding-bottom:80px;
 }
 
 
-// Footer Section
+/* Footer Section*/
+
 footer{
 	margin-top:10px;
 	padding-top:30px;
